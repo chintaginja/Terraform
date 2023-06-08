@@ -1,9 +1,8 @@
 provider "aws" {
          region = "us-east-1"
-         access_key = "AKIAZ6KNEFOTP4Z3QK4E"
-         secret_key = "AKIAZ6KNEFOTK3ADCZOO"
+         access_key = "AKE"
+         secret_key = "O"
 }
-
 
 resource "aws_instance" "MyVM" {
         ami = "ami-0889a44b331db0194"
